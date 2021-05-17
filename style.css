@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:  #d4d5e7;  
+}
+
+.container {
+  height: 100 px;
+}
+
+.cabeçalho {
+  text-align: center;
+  background: #010236;
+  color: #d4d5e7;
+}
+
+.cabeçalho h1{
+  font-size: 32px;
+}
+
+.cabeçalho p{
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.rodape{
+  text-align: center;
+  font-size: 8px;
+  color: #010236;
+}
+
+.moedaInput{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px;
+  width: 90px; 
+  margin: auto  
+  }
+  ::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+  }
+
+#real, #dolar, #renminbi, #bitcoin{
+  margin: left;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100px;
+  box-shadow: 0px 1px 5px #010236;
+  color: white;  
+}
+#real{
+background: #009c3b;
+}
+#dolar{
+background: #00006b;
+}
+#renminbi{
+background: #ee1620;
+}
+#bitcoin{
+background: #f7931a;
+}
